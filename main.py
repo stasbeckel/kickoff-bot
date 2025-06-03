@@ -452,7 +452,7 @@ def format_public_message(data: dict) -> str:
             if 'e-mail' in field_map:
                 message += f"\n📧 <b>Контакт:</b> {field_map['e-mail']}"
             if 'telegram' in field_map:
-                message += f"\n💬 <b>Telegram:</b> {field_map['telegram']}"
+                message += f"\n💬 <b>Telegram/Телефон:</b> {field_map['telegram']}"
 
         elif form_name == "Стартап":
             if 'название/имя' in field_map:
