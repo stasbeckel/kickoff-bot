@@ -18,9 +18,9 @@ from aiogram.client.default import DefaultBotProperties
 import logging
 
 # Конфигурация из переменных окружения
-API_TOKEN = os.getenv("BOT_TOKEN", "7565560702:AAGb7UT6yXIi4OE8kMZpyArP4trUgWBn7-U")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "1657285498"))
-CHANNEL_ID = os.getenv("CHANNEL_ID", "@kickoffhr")
+API_TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
+CHANNEL_ID = os.getenv("CHANNEL_ID")
 
 # Настройка логирования
 logging.basicConfig(
